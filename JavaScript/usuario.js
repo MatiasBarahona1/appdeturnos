@@ -4,7 +4,7 @@ let passGuardado = "matias123";
 const login = () => {
     let acceder = false
     for(let i = 3;i > 0 ; i--){
-        let username = prompt("Ingrese el nombre de quien esta reservando la cancha");
+        let username = prompt("Ingrese el nombre de usuario");
         let password = prompt("Ingresa tu contraseña");
 
         if(username == userGuardado && password == passGuardado){
@@ -17,7 +17,9 @@ const login = () => {
     }
     return acceder;
 }
-login("Error! Intentelo nuevamente dentro de 15 minutos");
+login("Error! Intentelo nuevamente dentro de 15 minutos")
+
+;
 
 
 let neumaticos = "Neumaticos";
